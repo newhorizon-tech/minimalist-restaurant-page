@@ -1,0 +1,27 @@
+{
+  "name": "restaurant-homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newhorizon-tech/restaurant-homepage.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Alaukik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/newhorizon-tech/restaurant-homepage/issues"
+  },
+  "homepage": "https://github.com/newhorizon-tech/restaurant-homepage#readme",
+  "devDependencies": {
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
