@@ -1,9 +1,18 @@
-body {
-  background-color: #99ffff;
-  color:white;
+body, h1 {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  width: 100vw;
+  height: 100vh;
+  color: white;
   background: linear-gradient(rgba(0,0,0,40%),rgba(0,0,0,40%)), url(./img/restaurant.jpeg);
   background-size: cover;
-
 }
 
 
@@ -11,6 +20,6 @@ button {
   color: white;
   background-color: #e9062f;
   border: none;
-  padding: 1%;
-  margin: 1%;
+  padding: 8px;
+  margin: 5px;
 }
