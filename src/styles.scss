@@ -40,3 +40,25 @@ button {
 .logo {
   width: 300px;
 }
+
+
+#menu-grid {
+  width: 80%;
+  display: grid;
+  background-color: red;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+  height: 100%;
+}
+
+.item h3 {
+  margin: 0;
+}
+
+
+.item img {
+  display: block;
+  width: 100%;
+}
