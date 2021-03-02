@@ -1,6 +1,6 @@
-# Minimalist Restaurant (minimalist-restaurant-page)
+# Minimalist Restaurant 
 
-This is a mini-project that allows uses DOM manipulation to create a minimalist restaurant website.
+This is a mini-project that uses DOM manipulation to create a minimalist restaurant website.
 
 ![screenshot](./img/screenshot.png)
 
