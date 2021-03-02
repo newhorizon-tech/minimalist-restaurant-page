@@ -1,6 +1,12 @@
-body, h1 {
+body {
   margin: 0;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background: linear-gradient(rgba(0,0,0,65%),rgba(0,0,0,65%)), url(./img/restaurant.jpeg) repeat;
+  background-size: cover;
 }
+
 
 header {
   display: flex;
@@ -20,13 +26,6 @@ main p {
   font-family: monospace;
 }
 
-#content {
-  width: 100vw;
-  height: 100vh;
-  color: white;
-  background: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)), url(./img/restaurant.jpeg);
-  background-size: cover;
-}
 
 
 button {
@@ -43,19 +42,23 @@ button {
 
 
 #menu-grid {
-  width: 80%;
+  width: 60%;
+  height: 80vh;
   display: grid;
-  background-color: red;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-gap: 2%;
 }
 
 .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100%;
 }
 
-.item h3 {
-  margin: 0;
-}
+// .item h3 {
+//   margin: 0;
+// }
 
 
 .item img {
