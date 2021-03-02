@@ -1,4 +1,9 @@
 import lobster from './img/menu/Lobster-Thermidor.jpg';
+import fishnchips from './img/menu/fish-and-chips.jpg';
+import caviar from './img/menu/caviar.jpeg';
+import donuts from './img/menu/donuts.jpg';
+import pizza from './img/menu/pizza.jpg';
+
 
 const MenuPage = (main) => {
   console.log("Menu!!");
@@ -6,13 +11,10 @@ const MenuPage = (main) => {
   const grid = document.createElement("div")
   grid.setAttribute("id","menu-grid");
 
-  const menuItems = { 'Truffles': {img: lobster, cost: '25'},
-                      'Pasta' : {img: lobster, cost: '25'},
-                      'Caviar': {img: lobster, cost: '25'},
-                      'Donuts': {img: lobster, cost: '25'},
-                      'Pizza' : {img: lobster, cost: '25'},
-                      'Burger': {img: lobster, cost: '25'},
-                      'Lobster Thermidor' : {img: lobster, cost: '40'},
+  const menuItems = { 'Lobster': {img: lobster, cost: '25'},
+                      'Fish and Chips' : {img: fishnchips, cost: '25'},
+                      'Caviar': {img: caviar, cost: '25'},
+                      'Pizza' : {img: pizza, cost: '25'},
                     };
 
   for (let menuItem of Object.keys(menuItems)) {
