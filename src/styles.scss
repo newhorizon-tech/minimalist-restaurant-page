@@ -3,10 +3,9 @@ body {
   width: 100vw;
   height: 100vh;
   color: white;
-  background: linear-gradient(rgba(0,0,0,80%),rgba(0,0,0,80%)), url(./img/restaurant.jpeg) repeat;
+  background: linear-gradient(rgba(0, 0, 0, 80%), rgba(0, 0, 0, 80%)), url(./img/restaurant.jpeg) repeat;
   background-size: cover;
 }
-
 
 header {
   display: flex;
@@ -16,11 +15,12 @@ header {
 main {
   padding: 3% 0 5% 0;
   display: flex;
- flex-direction: column;
- align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-main p, h3 {
+main p,
+h3 {
   font-size: 150%;
   font-weight: bolder;
   font-family: monospace;
@@ -60,7 +60,6 @@ button {
   display: block;
   width: 100%;
 }
-
 
 .map {
   width: 80%;
