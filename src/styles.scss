@@ -26,8 +26,6 @@ h3 {
   font-family: monospace;
 }
 
-
-
 button {
   color: white;
   background-color: #e9062f;
@@ -40,12 +38,11 @@ button {
   width: 300px;
 }
 
-
 #menu-grid {
   width: 70%;
   height: 80vh;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 2%;
 }
 
