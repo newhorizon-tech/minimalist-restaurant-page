@@ -10,19 +10,19 @@ const buttons = InitialPage();
 const DisplayHome = () => {
   const main = document.querySelector('main');
   main.innerHTML = "";
-  HomePage();
+  HomePage(main);
 }
 
 const DisplayMenu = () => {
   const main = document.querySelector('main');
   main.innerHTML = "";
-  MenuPage();
+  MenuPage(main);
 }
 
 const DisplayContact = () => {
   const main = document.querySelector('main');
   main.innerHTML = "";
-  ContactPage();
+  ContactPage(main);
 }
 
 

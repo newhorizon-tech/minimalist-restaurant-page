@@ -1,8 +1,7 @@
 import lobster from './img/menu/Lobster-Thermidor.jpg';
 
-const MenuPage = () => {
+const MenuPage = (main) => {
   console.log("Menu!!");
-  const main = document.querySelector('main');
 
   const grid = document.createElement("div")
   grid.setAttribute("id","menu-grid");

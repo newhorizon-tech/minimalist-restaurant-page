@@ -1,9 +1,8 @@
 import logoimg from './img/logo.jpeg';
 
-const HomePage = () => {
+const HomePage = (main) => {
   const content = document.querySelector('#content');
 
-  let main = document.querySelector('main');
   if (main == null){
     main = document.createElement('main');
   }
@@ -16,7 +15,7 @@ const HomePage = () => {
 
 
   const text = document.createElement("p")
-  text.textContent = "Food. You love food. We love food. Come and eat it!"
+  text.textContent = "Food. You love food. We love food. Come and eat!"
 
   main.append(logo,text);
   content.appendChild(main);
