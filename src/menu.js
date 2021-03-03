@@ -8,10 +8,10 @@ const MenuPage = (main) => {
   grid.setAttribute('id', 'menu-grid');
 
   const menuItems = {
-    Lobster: { img: lobster, cost: '25' },
+    Lobster: { img: lobster, cost: '80' },
     'Fish and Chips': { img: fishnchips, cost: '25' },
-    Caviar: { img: caviar, cost: '25' },
-    Pizza: { img: pizza, cost: '25' },
+    Caviar: { img: caviar, cost: '150' },
+    Pizza: { img: pizza, cost: '20' },
   };
 
   Object.keys(menuItems).forEach((menuItem) => {
@@ -21,10 +21,13 @@ const MenuPage = (main) => {
     const name = document.createElement('h3');
     name.textContent = menuItem;
 
+    const cost = document.createElement('h3');
+    cost.textContent = `$${menuItems[menuItem].cost}`;
+
     const image = document.createElement('img');
     image.src = menuItems[menuItem].img;
 
-    item.append(name, image);
+    item.append(name, cost, image);
     grid.appendChild(item);
   });
 

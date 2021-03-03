@@ -1,7 +1,5 @@
 body {
   margin: 0;
-  width: 100vw;
-  height: 100vh;
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 80%), rgba(0, 0, 0, 80%)), url(./img/restaurant.jpeg) repeat;
   background-size: cover;
@@ -24,6 +22,10 @@ h3 {
   font-size: 150%;
   font-weight: bolder;
   font-family: monospace;
+}
+
+h3 {
+  margin: 0.4%;
 }
 
 button {
