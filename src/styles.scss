@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 80%), rgba(0, 0, 0, 80%)), url(./img/restaurant.jpeg) repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding: 3% 0 5% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main p,
+h3 {
+  font-size: 150%;
+  font-weight: bolder;
+  font-family: monospace;
+}
+
+h3 {
+  margin: 0.4%;
+}
+
+button {
+  color: white;
+  background-color: #e9062f;
+  border: none;
+  padding: 8px;
+  margin: 5px;
+}
+
+.logo {
+  width: 300px;
+}
+
+#menu-grid {
+  width: 70%;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.item img {
+  display: block;
+  width: 100%;
+}
+
+.map {
+  width: 80%;
+  height: 600px;
+}
