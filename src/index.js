@@ -9,7 +9,7 @@ import ContactPage from './contact';
 const AddFavicon = () => {
   const head = document.querySelector('head');
   const fav = document.createElement('link');
-  fav.href = favimg;
+  fav.href = `${favimg}?`;
   fav.setAttribute('rel', 'icon');
   head.appendChild(fav);
 };
