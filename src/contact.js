@@ -1,8 +1,8 @@
 const ContactPage = (main) => {
-  const msg1 = document.createElement('p');
+  const msg1 = document.createElement('h3');
   msg1.textContent = 'Call us on our number 0118 999 881 999 119 725 3';
 
-  const msg2 = document.createElement('p');
+  const msg2 = document.createElement('h3');
   msg2.textContent = 'Or you can just walk in!';
 
   const map = document.createElement('iframe');
